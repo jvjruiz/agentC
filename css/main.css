@@ -3,20 +3,153 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* = General Styles 
+---------------------------------------------*/
+body {
+  background-color: lightgray;
+  padding: 0;
+}
+
+.jumbotron, .container {
+  background-color:white;
+}
+
+.container {
+  width: 85%;
+}
+
+.text--size-s {
+  font-size: 1.3em !important;
+}
+
+.text--size-m {
+  font-size: 2.1em !important;
+}
+
+.text--size-l {
+  font-size: 3.5em;
+}
+
+.text--size-xl {
+  font-size: 4em !important;
+}
+
+.text---align-center {
+  text-align:center;
+}
+
+/* = Navbar Styles
+---------------------------------------------*/
+
+.navbar {
+  display:block;
+  width:100%;
+  position: fixed;
+  height:9vh;
+  z-index: 9999;
+}
+
+.navbar__btn {
+  float:right;
+  margin-top: 25px;
+  margin-right:40px;
+  padding: 8px 35px;
+}
+
+/* = Landing section styles 
+----------------------------------------------*/
+
+.landing {
+  padding-top: 5em;
+  height: 100%;
+  margin-bottom: 3em;
+}
+
+.landing__content {
+  margin-top: 10em;
+}
+
+.landing__message {
+  margin:1.5em 0;
+}
+
+.landing__btn {
+  padding: 1.1em 5em;
+}
+
+/* = Pitch section styles 
+----------------------------------------------*/
+
+.pitch {
+  padding: 0;
+}
+
+.pitch__btn {
+  padding: 1em 4.5em;
+}
+
+/* = Projects section styles 
+----------------------------------------------*/
+.projects {
+  margin: 3em auto;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.project {
+  max-width: 45%;
+  padding: 3.5em;
+  background-color: white;
+  margin: 3em auto;
+}
+
+.project--left {
+  margin-right: 2.5%;
+}
+
+.project--right {
+  margin-left: 2.5%;
+}
+
+.project__image {
+  margin-bottom: 1.5em;
+}
+
+.project__btn {
+  margin: 0 auto 2em; 
+  width: 90%;
+}
+
+/* = Team section styles 
+----------------------------------------------*/
+
+.team__name {
+  font-weight:bold;
+}
+
+/* = Carousel section styles 
+----------------------------------------------*/
+.carousel {
+  margin: 2em;
+}
+
+.carousel__image {
+  text-align: center;
+  margin: auto;
+}
 
 
+/* = footer section styles 
+----------------------------------------------*/
+.footer {
+  width: 100%;
+}
 
+.footer__content {
+  width:85%;
+  margin: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer__btn {
+  margin-left: 50%;
+}

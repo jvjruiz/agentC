@@ -18,9 +18,9 @@ transition: color 0.3s ease;
 
 #menuToggle {
 display: block;
-position: absolute;
-top:8px;
-left:45px;
+position: relative;
+left: 35px;
+top: 29px;
 z-index: 1;
 width:5%;
 
